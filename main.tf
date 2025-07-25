@@ -16,3 +16,8 @@ resource "azurerm_resource_group" "rg3" {
     name= "devops-rg"
     location = "westus"
 }
+resource "azurerm_resource_group" "rg3" {
+    name= "insider-rg"
+    location = "westus"
+}
+
